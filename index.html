@@ -1,0 +1,217 @@
+<!-- Every wevpage should have atleast one html file called as "index", this is the home page of our web site -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Made with 🖤 by Abhinav Tyagi</title>
+
+    
+
+<!--Internal CSS-->
+<!--
+<style>
+
+        body{
+
+            background-color: aliceblue;
+
+        }
+
+/*
+The border-style property may be specified using one, two, three, or four values.
+
+When one value is specified, it applies the same style to all four sides.
+When two values are specified, the first style applies to the top and bottom, the second to the left and right.
+When three values are specified, the first style applies to the top, the second to the left and right, the third to the bottom.
+When four values are specified, the styles apply to the top, right, bottom, and left in that order (clockwise).
+
+
+Examples:
+
+border-width: thin medium thick 10px;
+top border is thin
+right border is medium
+bottom border is thick
+left border is 10px
+
+border-width: thin medium thick;
+top border is thin
+right and left borders are medium
+bottom border is thick
+
+border-width: thin medium;
+top and bottom borders are thin
+right and left borders are medium
+
+border-width: thin;
+all four borders are thin
+
+
+EX: 
+        border-style: dotted none none none;
+
+        is same as...
+
+        border-style: none;
+        border-top-style: dotted;
+
+
+*/
+            hr{
+            border-style: none;
+            border-top-style: dotted;
+            border-color: gray;
+            border-width: 5px;
+            width: 10%;
+        }
+
+    </style>
+
+
+-->
+
+<!--External CSS-->
+<link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+
+<!--
+
+    CSS is the language we use to style a Web page.
+
+What is CSS?
+CSS stands for Cascading Style Sheets
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+CSS saves a lot of work. It can control the layout of multiple web pages all at once
+External stylesheets are stored in CSS files
+
+HTML was NEVER intended to contain tags for formatting a web page!
+
+HTML was created to describe the content of a web page, like:
+
+<h1>This is a heading</h1>
+
+<p>This is a paragraph.</p>
+
+When tags like <font>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. 
+Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.
+
+To solve this problem, the World Wide Web Consortium (W3C) created CSS.
+
+CSS removed the style formatting from the HTML page!
+
+-->
+
+<body>
+
+    <!-- to get image from web
+         <img src="https://pbs.twimg.com/profile_images/1308647461037027328/_uUp1q2T_400x400.jpg" alt="Thomas Shelby"> 
+    -->
+
+    <!--To get image from offline folders-->
+    <!-- <img src="images/Thomas.jpg" alt="Thomas Shelby"> -->
+
+    <!--To make your image, act link an hyper text-->
+    <!-- <a href="https://www.ferrari.com/en-EN/auto/812-superfast">
+        <img src="images/Thomas.jpg" alt="Thomas Shelby">
+    </a> -->
+
+    <table cellspacing="20">
+
+        <tr>
+
+            <td>
+
+                <a href="https://www.ferrari.com/en-EN/auto/812-superfast">
+                    <img src="images/Thomas.jpg" alt="Thomas Shelby">
+                </a>
+
+            </td>
+
+            <td>
+
+                <h1>Abhinav Tyagi</h1>
+                <p>
+                    <!-- <i>Full stack java developer intern at Cognizant</i> -->
+
+                    <em>
+                        Full stack java developer intern at <strong> Cognizant </strong>
+                    </em>
+
+                    <!-- 
+New developers are often confused at seeing multiple elements that produce similar results. <em> and <i> are a common example, since they both italicize text. What's the difference?
+ Which should you use?
+
+By default, the visual result is the same. However, the semantic meaning is different. The <em> element represents stress emphasis of its contents, 
+while the <i> element represents text that is set off from the normal prose, such a foreign word, fictional character thoughts, or when the text refers to the definition of a word 
+instead of representing its semantic meaning. (The title of a work, such as the name of a book or movie, should use <cite>.)
+
+This means the right one to use depends on the situation. Neither is for purely decorative purposes, that's what CSS styling is for.
+
+An example for <em> could be: "Just do it already!", or: "We had to do something about it". A person or software reading the text would pronounce the words in italics with an emphasis, 
+using verbal stress.
+
+An example for <i> could be: "The Queen Mary sailed last night". Here, there is no added emphasis or importance on the word "Queen Mary". 
+It is merely indicated that the object in question is not a queen named Mary, but a ship named Queen Mary. Another example for <i> could be: "The word the is an article".
+         -->
+                </p>
+
+                <p>
+                    This is where my bio goes but I have no <strong>FUKING <em>idea</em></strong> what to write here.
+                </p>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+    <p>
+    <h3>
+        Oh god help me
+    </h3>
+    Please dont ask me why this is between two lines.
+    </p>
+    <h6>WTF am I even doing here?</h6>
+    <hr>
+
+    <ul>
+        <li>HELP</li>
+        <li>ME</li>
+        <li>PLZZZ</li>
+    </ul>
+
+    <ol>
+        <li>CALL</li>
+        <li>THE</li>
+        <li>FUCKING</li>
+        <li>911</li>
+    </ol>
+
+    <ol type="i">
+        <li>OHHH...</li>
+        <li>There is a Women...</li>
+        <li>A women that I love...</li>
+    </ol>
+
+    <ol type="A">
+        <li>And I got close...</li>
+        <li>I almost had FUCKING EVERYTHING!!!!</li>
+    </ol>
+
+    <hr>
+
+    <a href="contactMe.html">Contact me!!!</a>
+    <br>
+    <a href="WorkInfo.html">Work Info Table</a>
+    <br>
+    <a href="skills.html">Get Skill Table</a>
+
+</body>
+
+</html>

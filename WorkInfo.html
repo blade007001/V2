@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+  <body>
+    <!--
+
+        In HTML, a table has 3 parts...
+        header, body and foot
+
+        Date	    Job
+    2010 - 2012 	Farrari
+    2012 - current	Lamborgini
+    XXX 	        YYY
+    AAA	            BBB
+
+    here, "Date" and "Job" are header
+    "XXX","YYY","AAA","BBB" are footer
+    and rest is the body
+
+    In HTML, we decalre a table, by first declaring the row by using the <tr> and then declaring the elemets inside the row: for header, <th> and for body and footer: <td>
+
+    to declare a header: <thead></thead>
+    to declare body: <tbody></tbody>
+    to declare footer: <tfoot></tfoot> 
+
+    -->
+
+    <table border="2">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Job</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>2010 - 2012</td>
+          <td>Farrari</td>
+        </tr>
+
+        <tr>
+          <td>2012 - current</td>
+          <td>Lamborgini</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td>XXX</td>
+          <td>YYY</td>
+        </tr>
+
+        <tr>
+          <td>AAA</td>
+          <td>BBB</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
